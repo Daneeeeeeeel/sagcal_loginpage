@@ -1,0 +1,90 @@
+* {
+    border-radius: 1%;
+    box-sizing: border-box;
+    display: flexbox;
+    justify-self: center;
+}
+
+.shape {
+    z-index: 1;
+    shape-margin: 20%;
+    box-sizing: border-box;
+    color: aqua;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.box {
+    height: 600px;
+    width: 440px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(235, 236, 241);
+    border-image: initial;
+    top: 20px;
+    display: flexbox;
+    border-radius: 20px;
+    
+}
+.box:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+
+.button{
+    height: 60px;
+    width: 400px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: large;
+    position: relative;
+    bottom: 455px;
+    left: 20px;
+}
+
+.button:hover{
+    background-color: rgb(61, 61, 230);
+    text-decoration-color: white;
+}
+
+.name {
+    position: relative;
+    bottom: 700px;
+    left: 35px;
+    justify-self: auto;
+}
+
+.name:hover{
+    color:blue;
+}
+
+input{
+    width: 370px;
+    height: 60px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: rgb(133, 131, 131);
+    border-image: initial;
+    border-radius: 5px;
+    transition: 0.3s;
+    bottom: 350px;
+    left: 30px;
+    position: relative;
+}
+
+input:focus{
+    border-color: blue;
+    background-color: rgb(129, 120, 255);
+    box-shadow: 1px 1px 1px rgb(41, 7, 236);
+}
+
+.LOGIN {
+    position: relative;
+    bottom: 690px;
+    left: 35px;
+    z-index: 3;
+    justify-self: auto;
+}
+
